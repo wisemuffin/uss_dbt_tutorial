@@ -1,0 +1,6 @@
+﻿sale_id,sale_date,sale_client,sale_product_id,sale_quantity,sale_amount,sale_note
+S01,01/01/2021,Bill,PR01,1,100,
+S02,02/01/2021,Bill,PR02,1,100,
+S03,02/01/2021,Francesco,PR02,2,200,
+S04,03/01/2021,Francesco,PR03,1,100,
+S05,04/01/2021,Francesco,PR01,4,400,not enough units in stock

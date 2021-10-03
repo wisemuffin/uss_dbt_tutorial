@@ -1,0 +1,7 @@
+﻿shipment_id,shipment_sale_id,shipment_date,shipment_product_id,shipment_quantity,shipment_amount
+SH01,S01,01/01/2021,PR01,1,100
+SH02,S02,02/01/2021,PR02,1,100
+SH03,S03,02/01/2021,PR02,2,200
+SH04,S04,03/01/2021,PR03,1,100
+SH05,S05,04/01/2021,PR01,3,300
+SH06,S05,10/01/2021,PR01,1,100

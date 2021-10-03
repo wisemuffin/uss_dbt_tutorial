@@ -1,0 +1,6 @@
+﻿purchase_id,purchase_date,purchase_product_id,purchase_quantity,purchase_price,purchase_amount
+P01,01/01/2021,PR01,4,60,240
+P02,01/01/2021,PR02,4,60,240
+P03,01/01/2021,PR03,4,60,240
+P04,01/01/2021,PR04,4,60,240
+P05,05/01/2021,PR01,5,60,240
