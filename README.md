@@ -16,6 +16,7 @@ dbt-data-build-tool-tutorial
 
 1. [Docker](https://docs.docker.com/get-docker/) and [Docker compose](https://docs.docker.com/compose/install/)
 2. [dbt](https://docs.getdbt.com/dbt-cli/installation/)
+2.1 [dbt_utils](https://hub.getdbt.com/dbt-labs/dbt_utils/latest/)
 3. [pgcli](https://www.pgcli.com/install)
 4. [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
@@ -30,8 +31,7 @@ docker compose up -d
 
 ```bash
 export DBT_PROFILES_DIR=$(pwd)
-cd sde_dbt_tutorial
-dbt snapshot
+cd uss_dbt_tutorial
 dbt run
 dbt test
 dbt docs generate

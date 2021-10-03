@@ -1,0 +1,38 @@
+version: 2
+
+sources:
+  - name: warehouse
+    description: Data from application database, brought in by an EL process.
+    tables:
+      - name: product
+        columns:
+        - name: product_id
+          tests:
+            - not_null
+            - unique
+
+      - name: purchase
+        columns:
+        - name: purchase_id
+          tests:
+            - not_null
+            - unique
+        - name: purchase_product_id
+          tests:
+            - relationships:
+                to: source('warehouse', 'product')
+                field: product_id
+      
+      - name: sale
+        columns:
+        - name: sale_id
+          tests:
+            - not_null
+            - unique
+
+      - name: shipment
+        columns:
+        - name: shipment_id
+          tests:
+            - not_null
+            - unique

@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: stg_eltool__product
+    columns:
+      - name: product_id
+        tests:
+          - not_null
