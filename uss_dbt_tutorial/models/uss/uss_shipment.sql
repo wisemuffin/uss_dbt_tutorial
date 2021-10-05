@@ -4,5 +4,6 @@ with shipment as (
 )
 select
     shipment.shipment_id as _pbk_shipment,
+    shipment.shipment_product_id as _pbk_product,
     shipment.*
 from shipment

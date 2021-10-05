@@ -4,6 +4,7 @@ with sale as (
 )
 select 'sale' as stage,
     sale._pbk_sale,
+    sale._pbk_product,
     sale.sale_quantity,
     sale.sale_amount
 from sale
